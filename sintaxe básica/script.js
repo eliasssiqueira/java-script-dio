@@ -43,20 +43,42 @@ switch(placar){
 */
 
 
-var vetor = ['1','2','3','4','5'];
+var vetor = ['valor1','valor2','valor3','valor4','valor5'];
 let object = {propriedade1: '1',propriedade2: '2',propriedade3: '3'}
 
    /* for(let indice =0; indice < vetor.length; indice++){
     console.log(indice);
 }   */
 
+/*
+
 //for in  com array
 for(let i in vetor){
     console.log(i);
 }
-
+/*
 //for in  com object
 for(i in object){
     console.log(i);
 }
 
+for(i of vetor){
+    console.log(i)
+}
+
+
+//while
+var a =0
+
+while(a<10){
+    a++;
+    console.log(a);
+}
+*/
+
+var a =0;
+
+do{
+    a++;
+    console.log(a);
+} while(a<10);
