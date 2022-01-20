@@ -74,11 +74,58 @@ while(a<10){
     a++;
     console.log(a);
 }
-*/
 
+//do while
 var a =0;
 
 do{
     a++;
     console.log(a);
 } while(a<10);
+
+
+//Funcoes
+
+function mensagem(){
+    console.log('Essa mensagem veio de uma função.');
+}
+
+mensagem();
+
+//funções com parametros
+
+function mensagem1(primeiro,segundo){
+    console.log(primeiro, segundo);
+}
+
+mensagem1('Essa mensagem veio' , 'de uma função com parametros');
+
+
+
+//expressoes de funções
+
+var funcao = function nomeFuncao(){
+          console.log('Sou uma expressao de funcao')
+}
+
+funcao();
+
+var funcao = function(){
+    console.log('Sou uma expressao de funcao sem nome')
+}
+
+funcao();
+
+
+
+//ARROW FUNCTION
+
+var funcao =() =>{
+    console.log('sou uma arrow function!');
+}
+
+funcao();
+*/
+
+//funçoes aritmeticas
+
